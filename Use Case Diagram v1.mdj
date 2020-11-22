@@ -1,7 +1,7 @@
 {
 	"_type": "Project",
 	"_id": "AAAAAAFF+h6SjaM2Hec=",
-	"name": "Untitled",
+	"name": "Use case diagram",
 	"ownedElements": [
 		{
 			"_type": "UMLModel",
@@ -44,8 +44,253 @@
 							"width": 136,
 							"height": 40,
 							"text": "TravelWithMe"
+						},
+						{
+							"_type": "EllipseView",
+							"_id": "AAAAAAF18Pcobxat5Eo=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"left": 800,
+							"top": 48,
+							"width": 106,
+							"height": 57
 						}
 					]
+				}
+			]
+		},
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAF18Ql+jhazask=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model1",
+			"ownedElements": [
+				{
+					"_type": "UMLUseCaseDiagram",
+					"_id": "AAAAAAF18Ql+jha0SfY=",
+					"_parent": {
+						"$ref": "AAAAAAF18Ql+jhazask="
+					},
+					"name": "UseCaseDiagram1",
+					"ownedViews": [
+						{
+							"_type": "RectangleView",
+							"_id": "AAAAAAF18WX9zRa4G6Q=",
+							"_parent": {
+								"$ref": "AAAAAAF18Ql+jha0SfY="
+							},
+							"font": "Arial;13;0",
+							"left": 200,
+							"top": 32,
+							"width": 544,
+							"height": 680
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAF18WYvlxa7a2I=",
+							"_parent": {
+								"$ref": "AAAAAAF18Ql+jha0SfY="
+							},
+							"font": "Arial;13;0",
+							"left": 200,
+							"top": 32,
+							"width": 89.69482421875,
+							"height": 25,
+							"text": "TravelWithMe"
+						},
+						{
+							"_type": "UMLActorView",
+							"_id": "AAAAAAF18WavMxbChVQ=",
+							"_parent": {
+								"$ref": "AAAAAAF18Ql+jha0SfY="
+							},
+							"model": {
+								"$ref": "AAAAAAF18WavMxbAF94="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAF18WavMxbD+Yc=",
+									"_parent": {
+										"$ref": "AAAAAAF18WavMxbChVQ="
+									},
+									"model": {
+										"$ref": "AAAAAAF18WavMxbAF94="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF18WavNBbExuY=",
+											"_parent": {
+												"$ref": "AAAAAAF18WavMxbD+Yc="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -48,
+											"top": 496,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF18WavNBbFFiA=",
+											"_parent": {
+												"$ref": "AAAAAAF18WavMxbD+Yc="
+											},
+											"font": "Arial;13;1",
+											"left": 37,
+											"top": 286,
+											"width": 119,
+											"height": 13,
+											"text": "Passenger"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF18WavNBbG4ww=",
+											"_parent": {
+												"$ref": "AAAAAAF18WavMxbD+Yc="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -48,
+											"top": 496,
+											"width": 80.9072265625,
+											"height": 13,
+											"text": "(from Model1)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF18WavNBbHdZA=",
+											"_parent": {
+												"$ref": "AAAAAAF18WavMxbD+Yc="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -48,
+											"top": 496,
+											"height": 13,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 32,
+									"top": 279,
+									"width": 129,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAF18WavNBbExuY="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAF18WavNBbFFiA="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAF18WavNBbG4ww="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAF18WavNBbHdZA="
+									}
+								},
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAF18WavNBbIXHU=",
+									"_parent": {
+										"$ref": "AAAAAAF18WavMxbChVQ="
+									},
+									"model": {
+										"$ref": "AAAAAAF18WavMxbAF94="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": -24,
+									"top": 248,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAF18WavNBbJfCU=",
+									"_parent": {
+										"$ref": "AAAAAAF18WavMxbChVQ="
+									},
+									"model": {
+										"$ref": "AAAAAAF18WavMxbAF94="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": -24,
+									"top": 248,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAF18WavNBbK6YA=",
+									"_parent": {
+										"$ref": "AAAAAAF18WavMxbChVQ="
+									},
+									"model": {
+										"$ref": "AAAAAAF18WavMxbAF94="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": -24,
+									"top": 248,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAF18WavNBbLfBk=",
+									"_parent": {
+										"$ref": "AAAAAAF18WavMxbChVQ="
+									},
+									"model": {
+										"$ref": "AAAAAAF18WavMxbAF94="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": -24,
+									"top": 248,
+									"width": 10,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"containerChangeable": true,
+							"left": 32,
+							"top": 176,
+							"width": 129,
+							"height": 129,
+							"nameCompartment": {
+								"$ref": "AAAAAAF18WavMxbD+Yc="
+							},
+							"suppressAttributes": true,
+							"suppressOperations": true,
+							"attributeCompartment": {
+								"$ref": "AAAAAAF18WavNBbIXHU="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAF18WavNBbJfCU="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAF18WavNBbK6YA="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAF18WavNBbLfBk="
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLActor",
+					"_id": "AAAAAAF18WavMxbAF94=",
+					"_parent": {
+						"$ref": "AAAAAAF18Ql+jhazask="
+					},
+					"name": "Passenger"
 				}
 			]
 		}
